@@ -1,0 +1,17 @@
+body {
+    background-color: #161636;
+    color: #b6b6b6;
+    font-family: sans-serif
+}
+
+a:link {
+    color: #d65e5e
+}
+a:visited {
+    color: #9e2020
+}
+a:hover {
+    color: #e27474
+}
+a:active {
+    color: #581212}

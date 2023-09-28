@@ -194,12 +194,12 @@ class ModCard extends HTMLElement
         }
 
 
-        const style = document.createElement("link");
-        style.setAttribute("rel", "stylesheet");
-        style.setAttribute("href", "modcard.css");
+        // const style = document.createElement("link");
+        // style.setAttribute("rel", "stylesheet");
+        // style.setAttribute("href", "modcard.css");
 
 
-        shadow.appendChild(style);
+        // shadow.appendChild(style);
         shadow.appendChild(card);
     }
 }

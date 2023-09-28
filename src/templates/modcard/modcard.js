@@ -7,6 +7,8 @@ class ModCard extends HTMLElement
 
     connectedCallback()
     {
+        const shadow = this.attachShadow({mode: "open"});
+
         let thumbnailUrl;
         if (this.hasAttribute("thumb"))
         {
@@ -136,7 +138,7 @@ class ModCard extends HTMLElement
 
         const name = document.createElement("h3");
         name.setAttribute("class", "modName");
-        desc.textContent(modName);
+        name.textContent(modName);
         info.appendChild(name);
 
         const desc = document.createElement("p");
@@ -192,9 +194,13 @@ class ModCard extends HTMLElement
         }
 
 
-        const style = document.createElement("style");
+        const style = document.createElement("link");
+        style.setAttribute("rel", "stylesheet");
+        style.setAttribute("href", "modcard.css");
 
-        this.shadowRoot.appendChild(card);
+
+        shadow.appendChild(style);
+        shadow.appendChild(card);
     }
 }
 

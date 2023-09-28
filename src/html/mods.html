@@ -4,27 +4,36 @@
         <title>Cami's Hellhole</title>
         <link rel="stylesheet" href="/src/css/styles.css">
         <script src="/src/templates/sidebar.js" type="text/javascript" defer></script>
-        <script src="/src/templates/modcard.js" type="text/javascript" defer></script>
+        <script src="/src/templates/modcard/modcard.js" type="text/javascript" defer></script>
     </head>
     <body>
         <main-sidebar></main-sidebar>
         <div class="main">
-            <mod-card
-            mname="Example Mod 1"
-            ver="1.16.2"
-            loader="Forge / Fabric / Quilt"
-            git="https://github.com/The-Brickler/The-Brickler.github.io/tree/main"
-            modr="https://modrinth.com/"
-            page="/src/html/music.html"
-            ></mod-card>
-            <mod-card
-            mname="Example Mod 2"
-            ver="1.8 - 1.8.9"
-            loader="Forge"
-            git="https://github.com/The-Brickler/The-Brickler.github.io/tree/main"
-            modr="https://modrinth.com/"
-            page="/src/html/music.html"
-            ></mod-card>
+            <div id="vstack">
+                <div id="hstack">
+                    <mod-card   mname="Example Mod 1"
+                                ver="1.16.2"
+                                loader="Forge / Fabric / Quilt"
+                                git="https://github.com/The-Brickler/The-Brickler.github.io/tree/main"
+                                modr="https://modrinth.com/"
+                                page="/src/html/music.html"
+                    ></mod-card>
+                    <mod-card   mname="Example Mod 2"
+                                ver="1.8 - 1.8.9"
+                                loader="Forge"
+                                git="https://github.com/The-Brickler/The-Brickler.github.io/tree/main"
+                                modr="https://modrinth.com/"
+                                page="/src/html/music.html"
+                    ></mod-card>
+                    <mod-card   mname="Example Mod 3"
+                                ver="1.8 - 1.8.9"
+                                loader="Forge"
+                                git="https://github.com/The-Brickler/The-Brickler.github.io/tree/main"
+                                modr="https://modrinth.com/"
+                                page="/src/html/music.html"
+                    ></mod-card>
+                </div>
+            </div>
         </div>
     </body>
 </html>

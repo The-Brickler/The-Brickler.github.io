@@ -1,0 +1,17 @@
+.modcard /*The full card*/
+{
+    width: 30%;
+    padding: 1.6666666%;
+    height: 97%;
+
+}
+
+.modinfo /*The images and descriptions*/
+{
+    height: 80%;
+}
+
+.modlinks /*The mod links*/
+{
+    height: 20%;
+}

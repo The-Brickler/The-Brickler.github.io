@@ -1,17 +1,14 @@
 .modcard /*The full card*/
 {
-    width: 30%;
-    padding: 1.6666666%;
-    height: 97%;
-
+    flex-grow: 1;
 }
 
 .modinfo /*The images and descriptions*/
 {
-    height: 80%;
+    background-color: white;
 }
 
 .modlinks /*The mod links*/
 {
-    height: 20%;
+    background-color: gray;
 }

@@ -21,4 +21,4 @@ class Sidebar extends HTMLElement
     }
 }
 
-customElements.define("sidebar", Sidebar);
+customElements.define("main-sidebar", Sidebar);

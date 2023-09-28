@@ -1,17 +1,53 @@
 body {
+
     background-color: #161636;
-    color: #b6b6b6;
     font-family: sans-serif
 }
 
-a:link {
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #090929;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b42222;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #d14848;
+}
+
+.sidebar h2 {
+    color: #d9d9d9
+}
+
+.main {
+    color: #b6b6b6;
+
+    margin-left: 15%;
+    padding-left: 10px;
+}
+
+.main a:link {
     color: #d65e5e
 }
-a:visited {
+.main a:visited {
     color: #9e2020
 }
-a:hover {
+.main a:hover {
     color: #e27474
 }
-a:active {
+.main a:active {
     color: #581212}

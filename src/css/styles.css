@@ -63,3 +63,8 @@ body {
     align-items: stretch;
     align-content: flex-start;
 }
+
+.flex-card {
+    min-width: 50;
+    min-height: 50;
+}

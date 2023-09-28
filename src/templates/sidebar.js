@@ -10,7 +10,7 @@ class Sidebar extends HTMLElement
     this.innerHTML = `
         <div class="sidebar">
             <h2>Info</h2>
-                <a href="/index.html">About Me</a>
+                <a href="/src/html/about.html">About Me</a>
             <h2>Projects</h2>
                 <a href="/src/html/mods.html">Minecraft Mods</a>
                 <a href="/src/html/programs.html">Programs</a>
